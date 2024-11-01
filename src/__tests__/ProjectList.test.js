@@ -39,3 +39,5 @@ test("renders a <ProjectItem> for each project passed in as a prop", () => {
     expect(screen.queryByText(project.name)).toBeInTheDocument();
   }
 });
+
+export default ProjectList;
